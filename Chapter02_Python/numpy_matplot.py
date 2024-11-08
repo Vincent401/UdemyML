@@ -22,8 +22,8 @@ plt.ylabel("f(x)")
 plt.show()
 
 # Plot
-plt.scatter(x, y, color="red")
 plt.plot(x, y, color="blue")
+plt.scatter(x, y, color="red")
 plt.legend(["f(x)"])
 plt.title("This is a title")
 plt.xlabel("x")

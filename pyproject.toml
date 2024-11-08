@@ -89,7 +89,7 @@ docstring-code-format = true
 
 [tool.mypy]
 # Platform configuration
-python_version = "3.10"
+python_version = "3.12"
 # imports related
 ignore_missing_imports = true
 follow_imports = "silent"
@@ -129,7 +129,7 @@ show_error_codes = true
 exclude = ["docs", "test", "tests"]
 
 [tool.pyright]
-pythonVersion = "3.10"
+pythonVersion = "3.12"
 typeCheckingMode = "basic"
 # enable subset of "strict"
 reportDuplicateImport = true
